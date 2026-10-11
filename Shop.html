@@ -1,26 +1,74 @@
-<HTML>
-<HEAD>
-<TITLE>Заказать Альбом</TITLE>
-</HEAD>
-<BODY>
-<p align=center>
-<a href="index.html">Главная</a> | 
-<a href="Info.html">Общая информация</a> | 
-<a href="History.html">История</a> | 
-<a href="Disc.html">Дискография</a> | 
-<a href="Film.html">Фильмография</a> | 
-<a href="Link.html">Источники</a> | 
-Заказать Альбом | 
-<a href="Contacts.html">Контакты</a>
-</p>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Beatles — Магазин</title>
+</head>
+<BODY bgcolor="#FFF0F5">
+    <hr>
+    <center>
+        <h1><font face="Georgia, serif" color="#8B0000">Онлайн-магазин The Beatles</font></h1>
+        <p><b>Автор проекта:</b> Лазарева Элина Николаевна | <b>Группа:</b> ЭФЦ421-9</p>
+        <p>
+            <a href="index.html">Главная</a> | 
+            <a href="Info.html">Информация</a> | 
+            <a href="History.html">История</a> | 
+            <a href="Disc.html">Дискография</a> | 
+            <a href="Film.html">Фильмография</a> | 
+            <a href="Link.html">Ссылки</a> | 
+            <a href="Shop.html">Магазин</a> | 
+            <a href="Contacts.html">Контакты</a>
+        </p>
+    </center>
+    <hr>
 
-<H1 align=center><EM>Заказать альбом The Beatles</EM></H1>
-<center>
-<p>Заполните форму ниже для оформления заказа:</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc.../viewform?embedded=true" width="640" height="800" frameborder="0">Загрузка…</iframe>
-</center>
+    <h2><font face="Arial, sans-serif">Заказ альбомов и атрибутики</font></h2>
+    <p>Заполните форму ниже, чтобы оформить предзаказ эксклюзивного винилового альбома или мерча группы The Beatles:</p>
 
-<HR align=center width=50% size=1 color=green>
-<P align=center><FONT face=Arial size=1>&copy; Все права защищены. Лазарева Элина Николаевна, гр. ЭФЦ421-9, 2026.</FONT></P>
+    <!-- Интерактивная форма заказа -->
+    <fieldset style="width: 70%; margin: 0 auto; background-color: #FFFFFF; padding: 20px; border-radius: 8px;">
+        <legend><b>Форма заказа альбома</b></legend>
+        <form action="#" method="post">
+            <p>
+                <label for="name">Ваше имя и фамилия:</label><br>
+                <input type="text" id="name" name="name" placeholder="Иван Иванов" required style="width: 100%; padding: 8px;">
+            </p>
+            <p>
+                <label for="email">Ваш Email для связи:</label><br>
+                <input type="email" id="email" name="email" placeholder="example@mail.ru" required style="width: 100%; padding: 8px;">
+            </p>
+            <p>
+                <label for="album">Выберите альбом для заказа:</label><br>
+                <select id="album" name="album" style="width: 100%; padding: 8px;">
+                    <option value="abbey_road">Abbey Road (1969) — Vinyl Deluxe</option>
+                    <option value="sgt_pepper">Sgt. Pepper's Lonely Hearts Club Band (1967)</option>
+                    <option value="white_album">The Beatles / White Album (1968)</option>
+                    <option value="revolver">Revolver (1966) — Remastered</option>
+                    <option value="let_it_be">Let It Be (1970)</option>
+                </select>
+            </p>
+            <p>
+                <label for="address">Адрес доставки:</label><br>
+                <textarea id="address" name="address" rows="3" placeholder="Город, улица, дом, квартира" style="width: 100%; padding: 8px;"></textarea>
+            </p>
+            <p align="center">
+                <input type="submit" value="Отправить заказ" style="padding: 10px 20px; background-color: #4CAF50; color: white; border: none; font-weight: bold; cursor: pointer;">
+            </p>
+        </form>
+    </fieldset>
+
+    <br><br>
+
+    <!-- Блок для интеграции Google / Яндекс Формы -->
+    <center>
+        <h3><font face="Verdana, sans-serif">Встроенная онлайн-форма (Google / Яндекс Форма)</font></h3>
+        <p><small>Если у вас есть ссылка на созданную Google Форму, вставьте ее URL в атрибут src ниже:</small></p>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_EXAMPLE/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Загрузка формы...</iframe>
+    </center>
+
+    <hr>
+    <center>
+        <p><small>&copy; 2026 Лазарева Элина Николаевна (Группа ЭФЦ421-9). Все права защищены.</small></p>
+    </center>
 </BODY>
-</HTML>
+</html>
